@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.007), rgba(0, 0, 0, 0.007)), url(./bg.png);
+    background-color: #d8d1d1;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display: flex;
+    background: #000;
+    height: 60px;
+}
+#logo{
+    width: 100px;
+    height: 35px;
+    margin-right: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#nav{
+    display: flex;
+    list-style: none;
+    color: white;
+    padding-top: 8px;
+    font-size: 1rem;
+}
+#nav li{
+    margin: 18px;
+}
+#btn{
+    margin-left: 570px;
+    background-color: rgb(223, 18, 223);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 25px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.main{
+    text-align: center;
+    margin-top: 130px;
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+    width: 500px;
+    padding-left: 420px;
+    font-weight: 700;
+}
+p{
+    margin-top: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+#btn1{
+    background-color: rgb(216, 5, 216);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 25px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
